@@ -15,8 +15,11 @@ public class TestTablePage {
 
     }
    @Test
-    public void TestTablePage() throws InterruptedException {
-    TablePage tableName = new TablePage(driver);
-    tableName.TableName();
+    public void TablePage() throws InterruptedException {
+    TablePage oranges = new TablePage(driver);
+    oranges.TableName();
+
+
+
    }
 }

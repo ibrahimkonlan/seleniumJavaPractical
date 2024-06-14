@@ -3,12 +3,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
-public class SliderPage {
+public class SliderPage extends DownloadFilePage {
 
 
     WebDriver driver;
     public SliderPage(WebDriver driver) {
-        this.driver = driver;
+        super(driver);
     }
 
     public void setSlider() {

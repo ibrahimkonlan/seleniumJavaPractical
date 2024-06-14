@@ -6,7 +6,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.Set;
 
-public class WindowsPage extends formFieldsPage {
+public class WindowsPage extends TablePage {
 
     private String originalWindowHandle;
     private WebDriverWait wait;

@@ -7,7 +7,7 @@ import org.openqa.selenium.remote.http.TextMessage;
 
 import javax.lang.model.element.Name;
 
-public class ModalPage extends formFieldsPage{
+public class ModalPage extends PopUpPage{
 
     public ModalPage(WebDriver driver){super(driver);}
     private void scrollToElement(By locator){
